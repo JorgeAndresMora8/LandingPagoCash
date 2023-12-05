@@ -1,0 +1,100 @@
+.containerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerStart {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.containerEnd {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.columnContainer {
+  flex-direction: column;
+}
+
+.SpaceBetween {
+  justify-content: space-between;
+}
+
+.allSpace {
+  width: 100%;
+  height: auto;
+}
+
+.halfSpace {
+  width: 25rem;
+  height: 25rem;
+  background-color: coral;
+}
+
+.spaceHeightAdapted {
+  width: 25rem;
+  height: auto;
+}
+
+.smallBox {
+  width: 3rem;
+  height: 3rem;
+  background-color: green;
+}
+
+.itemInfo {
+  width: 18rem;
+  height: 20rem;
+  background-color: green;
+}
+
+.wideItem {
+  width: 50rem;
+  height: auto;
+}
+
+.smallSpace {
+  gap: 2rem;
+}
+
+.mediumSpace {
+  gap: 5rem;
+}
+
+.highSpace {
+  gap: 10rem;
+}
+
+.small {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: poppins, sans serif;
+  color: #5F5F5F;
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: poppins, sans serif;
+}
+
+.allSpace {
+  width: 100%;
+}
+
+.longWidget {
+  width: 56rem;
+  height: auto;
+}
+
+.item {
+  width: 18rem;
+  height: 16rem;
+}
+
+/*# sourceMappingURL=index.css.map */
