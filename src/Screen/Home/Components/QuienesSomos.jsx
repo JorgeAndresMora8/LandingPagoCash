@@ -2,7 +2,7 @@ import { ButtonIniciar } from "../../../Components/Buttons/ButtonIniciar"
 
 function QuienesSomos() {
   return (
-    <div className="containerCenter mediumGap backgroundCirculo" style={{padding:'3rem 0px'}}>
+    <div className="containerCenter mediumGap backgroundCirculo" id="quienesSomos" style={{padding:'3rem 0px'}}>
            <div className="containerInfo alignStart ">
             <span className="spanText">Quienes Somos</span>
             <b className="title"><span className="beneficiosItemTitleHighlight">Servicio</span> De Pago</b>

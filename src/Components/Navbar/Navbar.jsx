@@ -1,11 +1,10 @@
 import { useRef } from "react";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 function Navbar() {
 	const navRef = useRef();
-
+	
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
 			"responsive_nav"
@@ -14,10 +13,14 @@ function Navbar() {
 
 	return (
 		<header className="sticky">
-			<span><img src="/PagocashLogo.png" style={{width:'50px'}} alt="" /></span>
+			<span><a href="#header"><img src="/PagocashLogo.png" style={{width:'50px'}} alt="" /></a></span>
 			<nav ref={navRef}>
-        <Link to='/' >Quienes Somos</Link>
-        <Link to='/app' >Nuestra App</Link>
+		<a onClick={showNavbar} href='/#nuestraApp'>Nuestra App</a>
+		<a onClick={showNavbar}href='/#descarga'>Descarga</a>
+		<a onClick={showNavbar} href='/#quienesSomos'>Quienes Somos</a>
+		<a onClick={showNavbar} href='/#nuestrosValores'>Nuestros Valores</a>
+		<a onClick={showNavbar} href='/#form'>Contacto</a>
+
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

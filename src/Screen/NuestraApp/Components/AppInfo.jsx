@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function AppInfo() {
   return (
-    <div className="containerCenter spaceBetweenContainer ">
+    <div className="containerCenter spaceBetweenContainer" id="nuestraApp">
             <div className="containerInfo alignStart">
                 <div className="nuestraAppContentArea">
                 <span><img src="/PagocashLogo.png" style={{width:'100px', height:'100px'}} alt="" /></span>

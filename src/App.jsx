@@ -1,19 +1,25 @@
-import './Style/css/index.css'
 import './App.css'
-import { Footer } from './Components/Footer/Footer'
-// import Navbar from './Components/Navbar/Navbar'
-import { NuestraApp } from './Screen/NuestraApp/NuestraApp'
-import { Home } from './Screen/Home/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
+import Screen from './Screen/Screen';
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Footer from './Components/Footer/Footer.jsx'
+import TerminosCondiciones from './Components/TerminosCondiciones/TerminosCondiciones.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 
 
 function App() {
   return (
     <>
-    <NuestraApp/>
-    <Home />
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path='/' element={<Screen/>} />
+      <Route path='/terminos-condiciones' element={<TerminosCondiciones />} />
+    </Routes>
     <Footer />
+    </BrowserRouter>
     </>
   )
 }

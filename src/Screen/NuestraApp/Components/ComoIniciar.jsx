@@ -4,7 +4,7 @@ import { ButtonIniciar } from "../../../Components/Buttons/ButtonIniciar"
 
 function ComoIniciar() {
   return (
-    <div className="containerCenter columnDirection spaceBetweenContainer customDescargaLaApp mediumGap">
+    <div className="containerCenter columnDirection spaceBetweenContainer customDescargaLaApp mediumGap" id="descarga">
             <div className="alignStart longWiget">
                 <b className="title">Como unirse a <span style={{color:"#0B4282"}}>Pagocash</span></b>
                 <p className="text">Con estos simples pasos ya seras parte de Pagocash y disfrutaras de un sin fin de beneficios.</p>

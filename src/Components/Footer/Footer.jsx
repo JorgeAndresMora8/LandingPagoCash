@@ -23,7 +23,7 @@ const Footer = () => {
                     <div>
                         
                     </div>
-                   <p>Siguenos en nuestras redes sociales</p>
+                   {/* <p>Siguenos en nuestras redes sociales</p> */}
                 </div>
             </div>
 
@@ -34,4 +34,4 @@ const Footer = () => {
     )
 }
 
-export { Footer}
+export default Footer

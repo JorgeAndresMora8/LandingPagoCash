@@ -4,7 +4,7 @@ import { ButtonIniciar } from '../../../Components/Buttons/ButtonIniciar'
 
 function NuestrosValores() {
   return (
-    <div className="nuestrosValoresContainer">
+    <div className="nuestrosValoresContainer" id='nuestrosValores'>
             <b className="nuestrosValoresTitle">Nuestros Valores</b>
             <div className="nuestrosValoresItemContainer">
 
