@@ -13,7 +13,7 @@ function Navbar() {
 
 	return (
 		<header className="sticky">
-			<span><a href="#header"><img src="/PagocashLogo.png" style={{width:'50px'}} alt="" /></a></span>
+			<span><a href="/#header"><img src="/PagocashLogo.png" style={{width:'50px'}} alt="" /></a></span>
 			<nav ref={navRef}>
 		<a onClick={showNavbar} href='/#nuestraApp'>Nuestra App</a>
 		<a onClick={showNavbar}href='/#descarga'>Descarga</a>

@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="HomeHeader" id="header">
       <div className="containerInfo">
-        <h1 className="headerTitle">Ofrecemos Una <br /><span className="headerTitleHighLight">Solucion Financiera</span></h1>
+        <h1 className="headerTitle">Ofrecemos Una <br /><span className="headerTitleHighLight">Solución Financiera.</span></h1>
         <p className="headerText">Realiza transacciones de forma segura y rápida. En cualquier lugar o momento.</p>
         <div className="btnHeaderContainer">
         <ButtonApple />

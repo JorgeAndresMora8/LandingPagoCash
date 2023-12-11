@@ -7,7 +7,7 @@ function ComoIniciar() {
     <div className="containerCenter columnDirection spaceBetweenContainer customDescargaLaApp mediumGap" id="descarga">
             <div className="alignStart longWiget">
                 <b className="title">Como unirse a <span style={{color:"#0B4282"}}>Pagocash</span></b>
-                <p className="text">Con estos simples pasos ya seras parte de Pagocash y disfrutaras de un sin fin de beneficios.</p>
+                <p className="text">Con estos simples pasos ya serás parte de Pagocash y disfrutarás de un sin fin de beneficios.</p>
                 <div className="comoIniciarButtonArea">
                    <ButtonIniciar />
                 </div>
@@ -24,14 +24,14 @@ function ComoIniciar() {
                     <div className="comoIniciarItemHeader">
                     <span><FontAwesomeIcon className="fa-3x" style={{color:'#0B4282'}} icon={faMobileButton} /></span>
                     <b className="smallTitle">Registrate</b>
-                    <p>Registrate depositando tus datos pertinentes que seran empleados en la plataforma.</p>
+                    <p>Regístrate depositando tus datos pertinentes que serán empleados en la plataforma.</p>
                     </div>
                 </div>
                 <div className="comoIniciarItem">
                     <div className="comoIniciarItemHeader">
                     <span><FontAwesomeIcon className="fa-3x" style={{color:'#0B4282'}} icon={faHandHoldingDollar} /></span>
                     <b className="smallTitle">Transacciona</b>
-                    <p>Empiaza a transaccionar y realizar operaciones con personas tambien registradas.</p>
+                    <p>Empieza a transaccionar y realizar operaciones con personas también registradas.</p>
                     </div>
                 </div>
             </div>

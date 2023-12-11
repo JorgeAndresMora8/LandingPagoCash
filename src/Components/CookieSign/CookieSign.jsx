@@ -17,7 +17,7 @@ const CookieSign = () => {
     border: '2px solid #000d1e', }}
   expires={150}
 >
-Nuestra pagina hace uso de Cookies para garantizarte la mejor experiencia.{" "}
+Nuestra página hace uso de Cookies para garantizarte la mejor experiencia.{" "}
   
 </CookieConsent>
     )

@@ -6,7 +6,7 @@ function QuienesSomos() {
            <div className="containerInfo alignStart ">
             <span className="spanText">Quienes Somos</span>
             <b className="title"><span className="beneficiosItemTitleHighlight">Servicio</span> De Pago</b>
-            <p className="text">Ofrecemos una forma innovadora de manejar tu dinero. Podras realizar cualquier operacion en cualquier momento</p>
+            <p className="text">Ofrecemos una forma innovadora de manejar tu dinero. Podrás realizar cualquier operación en cualquier momento</p>
             <ButtonIniciar />
            </div>
            <div className="containerImage">

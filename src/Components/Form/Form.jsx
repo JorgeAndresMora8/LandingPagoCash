@@ -4,8 +4,8 @@ const Form = () => {
     return ( 
         <>
 		<div className="formContainer" id="form">
-			<div style={{width:'80%', height:'auto', display:'flex', justifyContent:'center', alignItems:'center', margin:'3rem 0px', flexDirection:'column'}}>
-				<img src="/PagocashLogoWhite.png" style={{width:'70px'}} alt="" />
+			<div className="formArea">
+				<img src="/PagocashLogoWhite.png" className="pagocashLogoForm" alt="" />
 			<b className="title" style={{color: '#fff'}}>Contactanos</b>
 			<p className="text" style={{color:'#fff'}}>Si tiene alguna inquietud, no dude en dejarnos su mensaje</p>
 			</div>
@@ -31,8 +31,7 @@ const Form = () => {
 				<button className="buttonWallet">enviar</button>
 			</div>
 			<div className="card-info">
-			{/* <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p> */}
-			<p style={{color:"#fff"}}>Mediante registrándose, está consciente de nuestros <Link to='/terminos-condiciones' style={{color:'#A7DDFA'}}>Terminos y condiciones</Link></p>
+			<p style={{color:"#fff"}}>Mediante registrándose, está consciente de nuestros <Link to='/terminos-condiciones' style={{color:'#A7DDFA'}}>Términos y condiciones</Link></p>
 		</div>
 		</form>
 	</div>

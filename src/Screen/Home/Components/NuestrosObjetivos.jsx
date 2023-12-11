@@ -13,9 +13,9 @@ function NuestrosObjetivos() {
           <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> Queremos que analices todos tus gastos, para así ahorrar mejor.</p>
         </div>
         <div className="nuestrosObjetivoItem">
-          <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> Queremos que compres lo que quieras, donde quieras..</p>
+          <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> Queremos que compres lo que quieras, donde quieras.</p>
           <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> Queremos que recibas el mejor soporte, por redes sociales, Comunidad, mail o chat en vivo.</p>
-          <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> La explicabo labore natus odit ipsam praesentium, laudantium at.</p>
+          <p><FontAwesomeIcon icon={faAnglesRight} style={{color:'rgb(92, 181, 255)'}}/> Queremos ofrecerte seguridad y rapidez en todo el proceso.</p>
         </div>
         </div>
       </div>
